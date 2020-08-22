@@ -1,15 +1,18 @@
-import React from "react";
-import TodoList from "./components/todoList/TodoList";
+import React, { Component } from "react";
+import Input from "./components/input.js";
+import Main from "./components/main";
 import "./App.css";
-import LikeDislike from "./components/likeDislike";
-function App() {
-  return (
-    <div className="App">
-      <h1>Ma to-to-list</h1>
-      <TodoList />
-      <LikeDislike/>
-    </div>
-  );
+class App extends Component {
+  state = {};
+  render() {
+    return (
+      <div className="App">
+        <Input />
+
+        <Main />
+      </div>
+    );
+  }
 }
 
 export default App;

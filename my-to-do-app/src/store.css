@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  background: url("./fond-react.jpg") no-repeat center fixed;
+  position: fixed;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  text-align: center;
+  color: #fff;
+}
