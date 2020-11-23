@@ -1,7 +1,4 @@
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 0;
   background: url("./fond-react.jpg") no-repeat center fixed;
   position: fixed;

@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { Button, Input, InputGroup, InputGroupAddon } from "reactstrap";
+import { Button, Input } from "reactstrap";
 class Todolist extends Component {
   render() {
     return (
       <>
         <h1 style={{ fontSize: "5vw" }}>MA TO DO LIST</h1>
-        <div style={{ width: "60%", margin: "auto", display: "flex" }}>
+        <div style={{ width: "300px", margin: "auto", display: "flex" }}>
           <Input
             type="text"
             onChange={(e) => {
-              this.props.hundelChange(e.target);
+              this.props.handleChange(e.target);
             }}
           />
 
@@ -29,7 +29,7 @@ class Todolist extends Component {
 }
 const mapDispatchToProps = (dispatch) => {
   return {
-    hundelChange: (target) => {
+    handleChange: (target) => {
       dispatch({ type: "SET_INPUT", value: target.value });
     },
     add: (input) => {

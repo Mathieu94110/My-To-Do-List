@@ -12,7 +12,7 @@ class Main extends Component {
               width: "60%",
             }}
           >
-            <Input value={el.inputValue} />
+            <Input defaultValue={el.inputValue} />
             <InputGroupAddon addonType="append" key={el.id}>
               <Button
                 color="info"
