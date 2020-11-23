@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/My-To-Do-List/static/css/main.396fe24f.chunk.css",
+    "main.js": "/My-To-Do-List/static/js/main.3c4f715e.chunk.js",
+    "main.js.map": "/My-To-Do-List/static/js/main.3c4f715e.chunk.js.map",
+    "runtime-main.js": "/My-To-Do-List/static/js/runtime-main.0242097a.js",
+    "runtime-main.js.map": "/My-To-Do-List/static/js/runtime-main.0242097a.js.map",
+    "static/css/2.dec86d71.chunk.css": "/My-To-Do-List/static/css/2.dec86d71.chunk.css",
+    "static/js/2.201f0783.chunk.js": "/My-To-Do-List/static/js/2.201f0783.chunk.js",
+    "static/js/2.201f0783.chunk.js.map": "/My-To-Do-List/static/js/2.201f0783.chunk.js.map",
+    "index.html": "/My-To-Do-List/index.html",
+    "precache-manifest.536864cd69f97d58933deefabd3f1dc6.js": "/My-To-Do-List/precache-manifest.536864cd69f97d58933deefabd3f1dc6.js",
+    "service-worker.js": "/My-To-Do-List/service-worker.js",
+    "static/css/2.dec86d71.chunk.css.map": "/My-To-Do-List/static/css/2.dec86d71.chunk.css.map",
+    "static/css/main.396fe24f.chunk.css.map": "/My-To-Do-List/static/css/main.396fe24f.chunk.css.map",
+    "static/js/2.201f0783.chunk.js.LICENSE.txt": "/My-To-Do-List/static/js/2.201f0783.chunk.js.LICENSE.txt",
+    "static/media/store.css": "/My-To-Do-List/static/media/fond-react.a26bc8ee.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0242097a.js",
+    "static/css/2.dec86d71.chunk.css",
+    "static/js/2.201f0783.chunk.js",
+    "static/css/main.396fe24f.chunk.css",
+    "static/js/main.3c4f715e.chunk.js"
+  ]
+}
